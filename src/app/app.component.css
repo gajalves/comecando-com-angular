@@ -1,0 +1,97 @@
+/* Estilo para o cabeçalho h1 */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #008080;
+    text-shadow: 1px 1px #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo para a lista de tarefas */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item da lista de tarefas */
+  li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    box-shadow: 2px 2px #c0c0c0;
+    position: relative;
+  }
+  
+  /* Estilo para o botão de remover */
+  button {
+    background-color: #f0f0f0;
+    border: 1px solid #c0c0c0;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  /* Estilo para o botão de concluir */
+  button:nth-of-type(2) {
+    background-color: #008080;
+    border: 1px solid #008080;
+    color: #ffffff;
+  }
+  
+  /* Estilo para o botão de refazer */
+  button:nth-of-type(3) {
+    background-color: #f0f0f0;
+    border: 1px solid #c0c0c0;
+    color: #000000;
+  }
+  
+  /* Estilo para o campo de entrada */
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  /* Estilo para a mensagem de erro */
+  small {
+    color: #ff0000;
+    font-size: 12px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+  
+  /* Estilo para o botão de salvar */
+  button[type="submit"] {
+    background-color: #008080;
+    border: 1px solid #008080;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para o formulário */
+  form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  /* Estilo para o fundo */
+  body {
+    background-color: #008080;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
